@@ -27,8 +27,8 @@ unset_lock(){
 
 # 检查架构
 check_arch(){
-    if [ "$(uname -m)" != "aarch64" ]; then
-        echo_date "错误: 此插件仅支持ARM64架构 (RT-BT86U)"
+    if [ "$(uname -m)" != "armv7l" ]; then
+        echo_date "错误: 此插件仅支持armv7l架构 (RT-AC68U)"
         exit 1
     fi
 }
