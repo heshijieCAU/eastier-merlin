@@ -1,9 +1,9 @@
 {
     "name": "EasyTier",
-    "description": "EasyTier VPN for RT-BT86U",
+    "description": "EasyTier VPN for RT-AC68U",
     "version": "1.0.0",
-    "model": "RT-BT86U",
-    "arch": "arm64",
+    "model": "RT-AC68U",
+    "arch": "armv7l",
     "author": "Personal",
     "home_url": "Module_easytier.asp",
     "port": "8080",
