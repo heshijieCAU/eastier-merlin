@@ -105,7 +105,7 @@ jobs:
             | **文件名** | `easytier.tar.gz` |
             | **文件大小** | `${{ env.FILE_SIZE }}` |
             | **MD5校验** | `${{ env.MD5_VALUE }}` |
-            | **支持平台** | ARM64 (aarch64) |
+            | **支持平台** | ARM (armv7l) |
             | **目标设备** | ASUS RT-BT86U + Merlin + KoolShare |
             
             ## 🚀 安装方法
@@ -123,7 +123,7 @@ jobs:
             
             ## ⚠️ 注意事项
             
-            - 请确认路由器为 ARM64 架构
+            - 请确认路由器为 ARM 架构
             - 安装前建议备份当前配置
             - 详细使用说明请参考 [README.md](https://github.com/${{ github.repository }}/blob/main/README.md)
             
